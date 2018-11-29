@@ -22,7 +22,7 @@
                     {{this.id}}
                     {{this.burger_name}}
 
-                    <form action="burger/eat/{{id}}" method="POST">
+                    <form action="burger/eat/{{id}}" method="POST" id="test">
                         <input type="hidden" name="devoured" value="true">
                         <button class="btn-primary" type="submit">Devour It!</button>
                     </form>
@@ -59,7 +59,7 @@
             <h2>Add A Burger!</h2>
 
             {{!-- <form class="create-update-form" action="/" method="POST"> --}}
-                <form action="burger/create/{{id}}" method="POST">
+                <form action="burger/create/{{id}}" method="POST" id="create-update-form">
                     <div class="form-group">
                         <p>Enter a burger you want to order and click the Submit Order button.</p>
                         <input type="text" id="ca" name="burger_name">

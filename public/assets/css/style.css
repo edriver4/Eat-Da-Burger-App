@@ -1,8 +1,9 @@
 li {
     padding: 15px;
     margin: 15px;
-    background: #ffffff;
+    background: blanchedalmond;
     list-style: none;
+    border: 1px black solid;
 }
 
 ul {
@@ -23,12 +24,44 @@ img {
 
 h1 {
     text-align: center;
-    text-shadow: 2px 2px #ffffff;
+    text-shadow: 2px 2px goldenrod;
 }
 
-.create-update-form {
+h2 {
+    text-align: center;
+    text-shadow: #ffffff;
+}
+
+#create-update-form {
+    padding: 25px;
+    margin: 25px;
+    background: blanchedalmond;
+    border: 1px black solid;
+}
+
+/* #test { */
     padding: 25px;
     margin: 25px;
     background: #eceff1;
     border: 1px black solid;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.btn-primary {
+    border-radius: 15px;
+}
+
+body {
+    font-family: 'Sedgwick Ave', cursive;
+    color: black;
+    background-image: url(https://st3.depositphotos.com/5624982/15004/v/1600/depositphotos_150043336-stock-illustration-seamless-pattern-tasty-burger-grilled.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000000;
+    font-size: 18px;
 }
