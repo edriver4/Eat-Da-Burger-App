@@ -39,13 +39,6 @@ h2 {
     border: 1px black solid;
 }
 
-/* #test { */
-    padding: 25px;
-    margin: 25px;
-    background: #eceff1;
-    border: 1px black solid;
-}
-
 .form-group {
     margin-bottom: 25px;
 }
@@ -64,4 +57,8 @@ body {
     background-size: cover;
     background-color: #000000;
     font-size: 18px;
+}
+
+::placeholder {
+    font-size: 12px;
 }
